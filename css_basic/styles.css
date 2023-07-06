@@ -1,6 +1,9 @@
 body{
     display: flex;
     flex-direction: column;
+    font-family: georgia;
+	background-color: #EEE;
+	margin: o;
 }
 main{
     display: flex;
@@ -10,8 +13,27 @@ main{
 article{
     flex: 2;
     overflow-y: auto;
+   
 }
 aside{
     flex: 1;
     overflow-y: auto;
+    border: #333;
+    border-width: 1px;
+}
+#header{
+	text-align: left;
+	background-color: #333;
+	color: white;
+    scroll-padding-left: 5px;
+	margin: 0;
+}
+p{
+    font-size: 18px;
+}
+nav ul li {
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+
 }
