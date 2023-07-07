@@ -38,11 +38,15 @@ p{
     font-size: 18px;
 }
 /* Style for logo */
+header {
+    display:flex;
+    align-items: center;
+}
 .logo{
     width: auto;
     max-height: 100%;
     font-family: lucida Sans;
-    font-size: 15px;
+    font-size: 20px;
     
 }
 /* Style for navigation menu */
