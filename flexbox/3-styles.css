@@ -353,11 +353,11 @@
     padding: 10rem 40rem 2rem 0;
   }
   /* Section Latest news ============================= */
-  .section-latest-news ul.row {
+  .section-latest-news .row {
     flex-direction: row-reverse;
   }
   /* Section SERVICES ============================= */
-  .section-services .row {
+  .section-services ul {
     flex-wrap: wrap;
   }
   
