@@ -1,5 +1,4 @@
-MY README
-CSS_ADVANCED PROJECT
+MY README FOR CSS_ADVANCED PROJECT<br>
 Here, I apply all the knowledge I gained form working on previous projects (flexbox, html advanced and CSS basics).
 
 Table of Contents:
