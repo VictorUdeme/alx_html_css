@@ -10,6 +10,6 @@ Table of Contents:
 4.	Video List Section (task 4)
 5.	Membership Section (task 5)
 6.	FAQ Section (task 6)
-7.	Footer Section (final task)
+7.	Footer Section (final-task)
 
 
