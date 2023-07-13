@@ -1,6 +1,7 @@
                 MY README ON
             CSS_ADVANCED PROJECT
-Here, I apply all the knowledge I gained form working on previous projects (flexbox, html advanced and CSS basics).
+     Here, I apply all the knowledge I gained form working on 
+    previous projects (flexbox, html advanced and CSS basics).
 
             Table of Contents:
 0.	Readme and objectives
