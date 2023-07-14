@@ -4,61 +4,68 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>wireframe</title>
-        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="style.css">        
     </head>
+    
     <body>
         <header>
-            <div>
+            <div class="logo">
                 <a href="homepage.fig">
                     <img src="images/logo.png" alt="Logo">
                  </a>
             </div>
-            <div>
-                <a href="#"> COURSES </a>
+            <div class="nav-urls"> 
+                 <a href="#"> COURSES </a>
                 <a href="#"> PRICING </a>
                 <a href="#"> LOGIN </a>
             </div>
         </header>
         <main>
             <!--Banner Section -->
-            <section class="banner">
-                <div>
-                    <h1>Get Schooled</h1>
-                    <p>SMILE GRIN LAUGH</p>
-                    <button class="btn">REGISTER FOR FREE</button>
+            <section class="header-section">
+                <div class="Schooled">
+                    <h1 class="school-title">
+                        Get Schooled
+                    </h1>
+                    <p class="schooled-text">
+                        <span>SMILE</span>
+                        <span>GRIN</span>
+                        <span>LAUGH</span>
+                    </p>
+                    <button class="register-btn">REGISTER FOR FREE</button>
                 </div>
-                <div>
-                    <h2><b class="learn">learn</b>from the pros</h2>
+                <div class="pros">
+                    <h2 class="pros-title">
+                        <span class="learn">learn</span>from the pros
+                    </h2>
                 </div>
-                <div>     
-                    <div>
+                <div class="pros-block">     
+                    <div class="pros-card">
                     <img src="images/phillip massey.png" alt="smile of the year" >
                     <h3>Phillip Massey</h3>
-                    <p>Smile of the year</p>
+                    <p>Smile of the year 2018 - 2019 </p>
                     </div>
-                    <div>
+                    <div class="pros-card">
                         <img src="images/3.png" alt="woman image" >
                         <h3>Nanny Lawrence</h3>
-                        <p>Best little smile</p>
+                        <p>Best little smile 2017</p>
                     </div>
-                    <div>
+                    <div class="pros-card">
                         <img src="images/2.png" alt="best friend smile" >
                         <h3>Bruce Walters</h3>
-                        <p>Best friend smile</p>
+                        <p>Best friend smile live performance 2019</p>
                     </div>
-                    <div>
+                    <div class="pros-card">
                         <img src="images/4.png" alt="smile winner" >
                         <h3>Henry Hughes</h3>
-                        <p>24th smile winner</p>
+                        <p>24th smile winner 2016 - 2019</p>
                     </div>
                 </div>
-
-
             </section>
             <!-- Author Section -->   
-            <section>
-                <h1>Authors Quote</h1>
-                <div>
+            <section class="presenter-section">
+                <div class="presenter-block">
                     <img src="images/5.png" alt="P name" style="width: 150px">
                 </div>
                 <div>
@@ -68,62 +75,101 @@
                             place to learn smilliing. And it so fun!
                         </p>
                     </blockquote>
-
                 </div> 
                 </section>
                 <!-- Video list Section -->
-                <section>
-                    <h2>Most popular tutorials</h2>
-                    <div>
-                        <div class="video-block">
+                <section class="video-section">
+                    <h2>Most 
+                        <span class="secondary-color">popular</span>tutorials
+                    </h2>
+                    <div class="video-list">
+                        <div class="video-card">     <!--change later to vedeo-block -->
                             <img src="images/9.png" alt="video 1">
-                            <h3>Diagonal Smile</h3>
-                            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                            <div class="author's block">
+                            <a class= "play" href= "#" >
+                            <img src="images/play.png">
+                            </a>
+                            <h3 class="video-title">
+                                Diagonal Smile
+                            </h3>
+                            <p class="video-desk">
+                                Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.
+                            </p>
+                            <div class="author"> <!--change later to author's block-->
                                 <img src="images/author2.jpeg" alt="Philip Massey">
-                                <h3>Phillip Massey</h3>
+                                <h3 class="author-name">Phillip Massey</h3>
                             </div>
-                            <div class="rating">
+                            <div class="rating-duration">
+                                <div class="rating">
                                 <img src="images/rating.png" alt="star">
-                                <p>8 min/p>
-                                </div>    
+                               </div>  
+                                <p class="duration">8 min/p>
+                                </div>
+                       
                         </div>
-                        <div class="video-block">
+                        <div class="video-card">
                             <img src="images/7.png" alt="video 1">
-                            <h3>Sad Smile</h3>
-                            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                            <div class="author's block">
+                            <a class="play" href="#">
+                                <img src="images/play.png">
+                            </a>
+                            <h3 class="video-title">
+                                Sad Smile
+                            </h3>
+                            <p class="video-desk">
+                                Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.
+                            </p>
+                            <div class="author">
                                 <img src="images/author2.jpeg" alt="Philip Massey">
-                                <h3>Phillip Massey</h3>
+                                <h3 class="author-name">Phillip Massey</h3>
                             </div>
-                            <div class="rating">
+    
+                            <div class="rating-duration">
+                                <div class="rating">
                                 <img src="images/rating.png" alt="star">
+                            </div>
                                 <p>8 min</p>
                                 </div>    
                         </div>
-                        <div class="video-block">
+                        <div class="video-card">
                             <img src="images/8.png" alt="video 1">
-                            <h3>Natural Smile</h3>
-                            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                            <div class="author's block">
+                            <a class="play" href="#">
+                                <img src="images/play.png">
+                            </a>
+                            <h3 class="video-title">
+                                Natural Smile
+                            </h3>
+                            <p class="video-desk">
+                                Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.
+                            </p>
+                            <div class="author">
                                 <img src="images/author2.jpeg" alt="Philip Massey">
-                                <h3>Phillip Massey</h3>
+                                <h3 class="author-name">Phillip Massey</h3>
                             </div>
-                            <div class="rating">
+                            <div class="rating-duration">
+                                <div class="rating">
                                 <img src="images/rating.png" alt="star">
+                                </div>
                                 <p>8 min</p>
                                 </div>    
                         </div>
-                        <div class="video-block">
+                        <div class="video-card">
                             <img src="images/6.png" alt="video 1">
-                            <h3>Happy Smile</h3>
-                            <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                            <div class="author's block">
-                                <img src="images/author2.jpeg" alt="author" style="width:150px">
-                                <h3>Phillip Massey</h3>
+                            <a class="play" href="#">
+                                <img src="images/play.png">
+                            </a>
+                            <h3 class="video-title">
+                                Happy Smile
+                            </h3>
+                            <p class="video-desk">
+                                Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.
+                            </p>
+                            <div class="author">
+                                <img src="images/author2.jpeg">
+                                <h3 class="author-name">Phillip Massey</h3>
                             </div>
-                            <div class="rating">
+                            <div class="rating-duration">
+                                <div class="rating">
                                 <img src="images/rating.png" alt="star">
+                                </div>
                                 <p>8 min</p>
                                 </div>    
                         </div>
@@ -132,7 +178,7 @@
                 </section>
                 
                 <!-- Membership Section -->
-                <section>
+                <section class="membership-section">
                     <h2>Free membership</h2>
                     <div>
                         <div>
