@@ -9,19 +9,7 @@
 
 /* RESET */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+* {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -29,8 +17,49 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
-	/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+body{
+	font-family: 'Source Sans Pro';
+	font-style: normal;
 }
+
+header {
+	display: flex;
+	flex-direction: ROW;
+	flex: auto;
+	background-image: url(images/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 2% 5% 2% 5%;
+	filter: grayscale(100%);
+	position: absolute;
+	left: -0.025%;
+	right: -0.025%;
+	top: 0%;
+	bottom: -26.48%;
+}
+header.logo {
+	flex: 5;
+	z-index: 2;
+}
+
+header .nav-urls {
+	flex: 4;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15px;
+	text-transform: uppercase;
+	z-index: 1;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+header .nav-urls a {
+	margin-left: 1%;
+	margin-right: 1%;
+	text-decoration: none;
+	color: var(--light-text);
+}
+
+
+
