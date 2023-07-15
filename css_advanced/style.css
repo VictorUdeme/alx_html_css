@@ -300,8 +300,8 @@ main {
 }
 
 .membership-section {
+	background-color: var(--secondary);
 	color: var(--light-text);
-	background: var(--dark-text);
 	padding: 2rem;
 }
 
@@ -330,6 +330,7 @@ main {
 	justify-content: space-evenly;
 	padding-left: 5rem;
 	padding-right: 5rem;
+	background-color: var(--secondary);
 }
 
 .membership-card {
