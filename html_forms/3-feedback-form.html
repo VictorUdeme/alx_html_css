@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+</head>
+<body>
+    <form id="feedbackForm">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="feedback">Feedback:</label><br>
+        <input type="checkbox" id="excellent" name="feedback" value="excellent">
+        <label for="excellent">Excellent</label><br>
+        
+        <input type="checkbox" id="good" name="feedback" value="good">
+        <label for="good">Good</label><br>
+        
+        <input type="checkbox" id="average" name="feedback" value="average">
+        <label for="average">Average</label><br>
+        
+        <input type="checkbox" id="poor" name="feedback" value="poor">
+        <label for="poor">Poor</label><br>
+        
+        <label for="file">Upload a file:</label><br>
+        <input type="file" id="file" name="file" required><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        document.getElementById('feedbackForm').addEventListener('submit', function(e) {
+            var feedbackOptions = document.querySelectorAll('input[name="feedback"]:checked');
+            if (feedbackOptions.length === 0) {
+                alert('Please select at least one feedback option.');
+                e.preventDefault();
+            }
+        });
+    </script>
+</body>
+</html>
